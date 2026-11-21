@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JunkR Tattoo — Tatoueur à Nancy · Blackwork & Suminagashi</title>
+<meta name="description" content="JunkR Tattoo, tatoueur à Nancy (15 rue Saint-Julien) : blackwork, fine line, suminagashi et flash. Note 5,0/5 sur Google. Demande de rendez-vous en ligne, par SMS ou par téléphone.">
+<meta name="theme-color" content="#0b0b0c">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="JunkR Tattoo — Tatoueur à Nancy">
+<meta property="og:description" content="Blackwork, fine line, suminagashi, flash. Un petit salon au cœur de Nancy. Réserve ton créneau en ligne.">
+<meta property="og:image" content="img/tatouage-chrysantheme.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23f7f4ee' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%23f7f4ee' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23e2321f'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&text=%E5%A2%A8%E6%B5%81%E3%81%97%E5%88%BA%E9%9D%92&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="img/hero-poster.jpg">
+<script>document.documentElement.classList.add('js');</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TattooParlor",
+  "name": "JunkR Tattoo",
+  "description": "Tatoueur à Nancy : blackwork, fine line, suminagashi, flash. Salon privé au 15 rue Saint-Julien.",
+  "telephone": "+33677418532",
+  "image": ["img/salon-blanc.jpg", "img/tatouage-chrysantheme.jpg"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 Rue Saint-Julien",
+    "postalCode": "54000",
+    "addressLocality": "Nancy",
+    "addressCountry": "FR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 48.6911282, "longitude": 6.1847157 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "19:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "5", "bestRating": "5" },
+  "sameAs": ["https://www.instagram.com/junkr_tattoo/"],
+  "hasMap": "https://www.google.com/maps/place/JunkR+Tattoo/@48.6911282,6.1847157,17z/data=!4m6!3m5!1s0x4794995985374d1b:0x2f51207f293d581!8m2!3d48.6911282!4d6.1847157!16s%2Fg%2F11nh9dldg9"
+}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__curtain loader__curtain--top"></div>
+  <div class="loader__curtain loader__curtain--bottom"></div>
+  <svg class="rings loader__rings" data-rings="11" data-seed="4" data-rmin="30" data-rmax="230"></svg>
+  <div class="loader__center">
+    <div class="loader__word" aria-hidden="true"><span>J</span><span>u</span><span>n</span><span>k</span><span>R</span></div>
+    <div class="loader__meta"><span class="loader__count"><b id="loaderCount">0</b>%</span><span>Tattoo — Nancy</span></div>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><i class="cursor__dot"></i><i class="cursor__ring"><span class="cursor__label"></span></i></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" aria-label="JunkR Tattoo — haut de page">
+    <svg class="nav__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="20" r="5" fill="#e2321f"/></svg>
+    <span>JunkR</span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#histoire">Le shop</a>
+    <a href="#styles">Styles</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#avis">Avis</a>
+    <a href="#venir">Venir</a>
+  </nav>
+  <a class="btn btn--primary btn--sm nav__cta" href="#reservation" data-magnetic><span>Réserver</span></a>
+  <button class="nav__burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><i></i><i></i></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__links" aria-label="Menu mobile">
+    <a href="#histoire"><span>01</span>Le shop</a>
+    <a href="#styles"><span>02</span>Styles</a>
+    <a href="#galerie"><span>03</span>Galerie</a>
+    <a href="#avis"><span>04</span>Avis</a>
+    <a href="#reservation"><span>05</span>Réserver</a>
+    <a href="#venir"><span>06</span>Venir</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="tel:+33677418532">06 77 41 85 32</a>
+    <a href="https://www.instagram.com/junkr_tattoo/" target="_blank" rel="noopener">@junkr_tattoo</a>
+  </div>
+</div>
+
+<a class="fab" href="tel:+33677418532" aria-label="Appeler JunkR Tattoo au 06 77 41 85 32">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>
+  <span>Appeler</span>
+</a>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-label="Accueil">
+  <div class="hero__bg" data-hero-bg>
+    <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="img/hero-poster.jpg" aria-hidden="true" tabindex="-1" disablepictureinpicture>
+      <source src="media/hero-720.mp4" type="video/mp4">
+    </video>
+    <div class="hero__shade"></div>
+  </div>
+
+  <div class="hero__ringswrap" data-hero-rings aria-hidden="true">
+    <svg class="rings hero__rings" data-rings="20" data-seed="7" data-rmin="20" data-rmax="235"></svg>
+  </div>
+  <div class="hero__kanji" data-hero-kanji aria-hidden="true">墨流し</div>
+
+  <figure class="hero__float hero__float--a" data-hero-float="-0.22"><img src="img/tatouage-poisson.jpg" alt="Tatouage blackwork d'un squelette de poisson sur la jambe" width="1100" height="1466" fetchpriority="low"></figure>
+  <figure class="hero__float hero__float--b" data-hero-float="-0.45"><img src="img/tatouage-vase.jpg" alt="Tatouage fine line d'un vase de fleurs avec un oiseau, sur l'avant-bras" width="1100" height="1466" fetchpriority="low"></figure>
+  <figure class="hero__float hero__float--c" data-hero-float="-0.12"><img src="img/tatouage-gobelin.jpg" alt="Tatouage façon gravure d'un gobelin armé d'une hache, sur l'épaule" width="1100" height="1466" fetchpriority="low"></figure>
+
+  <div class="hero__inner" data-hero-inner>
+    <p class="eyebrow hero__eyebrow"><i class="dot"></i> Tatoueur · Nancy</p>
+    <h1 class="hero__title" aria-label="JunkR Tattoo, tatoueur à Nancy"><span class="hero__word" aria-hidden="true">JUNKR</span></h1>
+    <p class="hero__sub" data-hero-sub>Suminagashi <i>×</i> Blackwork</p>
+    <p class="hero__lead" data-hero-lead>Du noir franc, des détails fins, une peau qui raconte. Dans un petit salon du centre de Nancy où le café est bon.</p>
+    <div class="hero__cta" data-hero-cta>
+      <a class="btn btn--primary" href="#reservation" data-magnetic><span>Réserver mon créneau</span></a>
+      <a class="btn btn--ghost" href="tel:+33677418532" data-magnetic><span>06 77 41 85 32</span></a>
+    </div>
+  </div>
+
+  <div class="hero__foot">
+    <p class="status" id="openStatus" aria-live="polite"><i class="status__dot"></i><span>Horaires du salon</span></p>
+    <a class="hero__scroll" href="#histoire" aria-label="Descendre vers la suite"><span>Défiler</span><i></i></a>
+    <svg class="seal hero__seal" viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="sealPath" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs>
+      <circle cx="100" cy="100" r="98" fill="#e2321f"/>
+      <circle cx="100" cy="100" r="62" fill="none" stroke="#0b0b0c" stroke-width="1.2" opacity=".55"/>
+      <g class="seal__spin"><text><textPath href="#sealPath" textLength="498" lengthAdjust="spacing">JUNKR TATTOO · NANCY · SUMINAGASHI × BLACKWORK · </textPath></text></g>
+      <text class="seal__kanji" x="100" y="128" text-anchor="middle">墨</text>
+    </svg>
+  </div>
+</section>
+
+<!-- ============ MARQUEE (bandes croisées) ============ -->
+<section class="marquees" aria-label="Mots-clés">
+  <div class="band band--red" data-band="-1">
+    <div class="band__row"><div class="band__set" data-set>
+      <span>Blackwork</span><i class="ring-glyph"></i><span>Suminagashi</span><i class="ring-glyph"></i><span>Fine line</span><i class="ring-glyph"></i><span>Flash</span><i class="ring-glyph"></i><span>Floral</span><i class="ring-glyph"></i><span>Réalisme</span><i class="ring-glyph"></i><span>Nancy</span><i class="ring-glyph"></i>
+    </div></div>
+  </div>
+  <div class="band band--ink" data-band="1">
+    <div class="band__row"><div class="band__set" data-set>
+      <span>Sur mesure</span><i class="ring-glyph"></i><span>Hygiène irréprochable</span><i class="ring-glyph"></i><span>Un café avant la séance</span><i class="ring-glyph"></i><span>5,0 sur Google</span><i class="ring-glyph"></i><span>Du lundi au samedi</span><i class="ring-glyph"></i>
+    </div></div>
+  </div>
+</section>
+
+<!-- ============ HISTOIRE (section pinnée) ============ -->
+<section class="story" id="histoire" aria-labelledby="story-title">
+  <h2 class="visually-hidden" id="story-title">Le salon et la façon de tatouer de JunkR</h2>
+  <div class="story__pin" data-story>
+    <div class="story__stage">
+
+      <article class="story__step" data-step>
+        <figure class="story__fig"><div class="story__figin" data-mask><video class="story__video" muted loop playsinline preload="metadata" poster="img/goutte-poster.jpg" role="img" aria-label="Une goutte d'encre rouge tombe dans l'eau et s'y diffuse en volutes" disablepictureinpicture tabindex="-1"><source src="media/goutte-encre.mp4" type="video/mp4"></video></div></figure>
+        <div class="story__text">
+          <p class="story__num"><b>01</b><span>L'encre</span></p>
+          <h3 class="title" data-split="words">L'encre <em>qui flotte</em></h3>
+          <p>Le suminagashi, c'est l'art japonais de poser de l'encre sur l'eau et d'en cueillir des ondes que personne ne pourra refaire. Le blackwork, c'est là où tout atterrit&nbsp;: du noir franc, des contrastes qui tiennent dans le temps. JunkR tatoue à la jonction des deux.</p>
+        </div>
+      </article>
+<article class="story__step story__step--flip" data-step>
+        <figure class="story__fig"><div class="story__figin" data-mask><img src="img/salon-blanc.jpg" alt="Le salon de JunkR : parquet clair, commode noire et arbre aux fleurs blanches" width="1100" height="1466" loading="lazy"></div></figure>
+        <div class="story__text">
+          <p class="story__num"><b>02</b><span>Le shop</span></p>
+          <h3 class="title" data-split="words">Mon <em>p'tit salon</em></h3>
+          <p>Depuis mars 2026, JunkR tatoue dans son propre shop, rue Saint-Julien&nbsp;: parquet clair, mobilier noir, un arbre aux fleurs blanches dans un coin et une étagère de collectionneur. «&nbsp;Ma déco, mon univers, mon p'tit salon.&nbsp;» Il promet aussi du bon café.</p>
+        </div>
+      </article>
+
+      <article class="story__step" data-step>
+        <figure class="story__fig"><div class="story__figin" data-mask><img src="img/artiste-seance.jpg" alt="Séance de tatouage dans le salon de JunkR" width="1096" height="1501" loading="lazy"></div></figure>
+        <div class="story__text">
+          <p class="story__num"><b>03</b><span>L'écoute</span></p>
+          <h3 class="title" data-split="words">À <em>l'écoute</em></h3>
+          <p>Ton idée peut être floue&nbsp;: c'est une bonne matière première. On parle d'emplacement, de taille, de style, et le dessin se construit pour ta peau, pas pour un portfolio. Les clients le répètent&nbsp;: minutieux, de bon conseil, à l'écoute.</p>
+        </div>
+      </article>
+
+      <article class="story__step story__step--flip" data-step>
+        <figure class="story__fig"><div class="story__figin" data-mask><img src="img/gants.jpg" alt="Mains gantées tenant une machine à tatouer, photo en noir et blanc" width="1600" height="1068" loading="lazy"></div></figure>
+        <div class="story__text">
+          <p class="story__num"><b>04</b><span>L'hygiène</span></p>
+          <h3 class="title" data-split="words">Propre, <em>point.</em></h3>
+          <p>Un salon impeccable, une hygiène irréprochable&nbsp;: ce n'est pas nous qui le disons, ce sont les avis. Et le résultat suit&nbsp;: des détails nets qui cicatrisent bien, et un tatoueur qui adore poster les photos de ses tatouages cicatrisés.</p>
+        </div>
+      </article>
+
+    </div>
+    <div class="story__hud" aria-hidden="true">
+      <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="2"/><circle id="storyRing" cx="30" cy="30" r="26" fill="none" stroke="#e2321f" stroke-width="2.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 30 30)"/></svg>
+      <span><b id="storyNum">01</b>/04</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--washi);--to:var(--sumi)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,48 C90,18 170,70 290,44 S470,2 600,40 S800,84 960,46 S1210,8 1320,44 S1410,64 1440,40 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ STYLES (défilement horizontal) ============ -->
+<section class="styles" id="styles" aria-labelledby="styles-title">
+  <div class="hscroll" data-hscroll>
+    <div class="hscroll__intro">
+      <p class="eyebrow"><i class="dot"></i> Styles &amp; prestations</p>
+      <h2 class="title title--xl" id="styles-title" data-split="words">Ce que <em>je tatoue</em></h2>
+      <p class="hscroll__lead">Chaque pièce est dessinée sur mesure. Choisis un point de départ, on le travaille ensemble.</p>
+      <p class="hscroll__hint"><span>Défile</span><i></i></p>
+    </div>
+
+    <ul class="hscroll__track" data-track>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-gobelin.jpg" alt="Tatouage façon gravure d'un gobelin à la hache" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">01</p>
+          <h3>Blackwork</h3>
+          <p>Aplats profonds, gravure, motifs graphiques. Du noir qui tient la distance.</p>
+          <div class="card__foot"><span class="price" data-price="blackwork">Sur devis</span><a class="card__link" href="#reservation" data-style="Blackwork">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-vase.jpg" alt="Tatouage fine line d'un vase de fleurs et d'un oiseau" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">02</p>
+          <h3>Fine line</h3>
+          <p>Traits fins, détails nets, compositions délicates. Le calme avant le noir.</p>
+          <div class="card__foot"><span class="price" data-price="fineline">Sur devis</span><a class="card__link" href="#reservation" data-style="Fine line">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-chrysantheme.jpg" alt="Tatouage d'un chrysanthème et de papillons sur le bras" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">03</p>
+          <h3>Floral &amp; botanique</h3>
+          <p>Chrysanthèmes, bouquets, papillons&nbsp;: la nature dessinée au millimètre.</p>
+          <div class="card__foot"><span class="price" data-price="floral">Sur devis</span><a class="card__link" href="#reservation" data-style="Floral">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-realisme.jpg" alt="Tatouage réaliste noir et gris : une sculpture drapée sur la cuisse" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">04</p>
+          <h3>Réalisme noir &amp; gris</h3>
+          <p>Volumes, drapés, textures&nbsp;: du réalisme sculptural en niveaux de gris.</p>
+          <div class="card__foot"><span class="price" data-price="realisme">Sur devis</span><a class="card__link" href="#reservation" data-style="Réalisme noir et gris">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-poisson.jpg" alt="Tatouage d'un squelette de poisson, style flash" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">05</p>
+          <h3>Flash</h3>
+          <p>Des dessins prêts à être tatoués, à retrouver dans la story à la une «&nbsp;FLASH&nbsp;» sur Instagram.</p>
+          <div class="card__foot"><span class="price" data-price="flash">Sur devis</span><a class="card__link" href="#reservation" data-style="Flash">Demander un flash <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card card--red" data-tilt>
+        <div class="card__img"><img src="img/encre-rouge.jpg" alt="Encre rouge qui se diffuse dans l'eau" width="1600" height="900" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">06</p>
+          <h3>Touches de rouge</h3>
+          <p>Lycoris, la fleur écarlate&nbsp;: un peu de rouge pour une beauté éphémère, un souvenir éternel.</p>
+          <div class="card__foot"><span class="price" data-price="rouge">Sur devis</span><a class="card__link" href="#reservation" data-style="Touche de rouge">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card" data-tilt>
+        <div class="card__img"><img src="img/tatouage-pieuvre.jpg" alt="Tatouage d'une pieuvre enroulée autour d'un couteau, sur l'avant-bras" width="1100" height="1466" loading="eager"></div>
+        <div class="card__glare"></div>
+        <div class="card__body">
+          <p class="card__no">07</p>
+          <h3>Patchwork &amp; raccords</h3>
+          <p>Un patchwork déjà commencé&nbsp;? On continue, on raccorde, on harmonise.</p>
+          <div class="card__foot"><span class="price" data-price="patchwork">Sur devis</span><a class="card__link" href="#reservation" data-style="Patchwork / raccord">Demander ce style <i>→</i></a></div>
+        </div>
+      </li>
+      <li class="card card--cta">
+        <div class="card__body">
+          <p class="card__no">+</p>
+          <h3>Ton idée n'est pas dans la liste&nbsp;?</h3>
+          <p>Parfait. C'est même là que ça devient intéressant.</p>
+          <a class="btn btn--primary" href="#reservation" data-style="Autre / je ne sais pas encore" data-magnetic><span>Raconte-moi ton projet</span></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--sumi);--to:var(--lycoris)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,54 L40,40 L80,58 L130,34 L190,56 L250,30 L310,52 L380,36 L450,60 L520,32 L590,54 L660,38 L730,58 L800,30 L870,52 L940,36 L1010,58 L1080,34 L1150,56 L1220,38 L1290,58 L1360,36 L1440,52 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ CHIFFRES ============ -->
+<section class="stats" id="chiffres" aria-label="JunkR Tattoo en quelques chiffres">
+  <div class="stats__grid">
+    <div class="stat" data-stat>
+      <svg class="stat__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 60 60)" data-ring/></svg>
+      <p class="stat__num"><span data-count="5" data-decimals="1">5,0</span><small>/5</small></p>
+      <p class="stat__label">Note moyenne sur Google</p>
+    </div>
+    <div class="stat" data-stat>
+      <svg class="stat__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 60 60)" data-ring/></svg>
+      <p class="stat__num"><span data-count="100">100</span><small>%</small></p>
+      <p class="stat__label">d'avis 5 étoiles</p>
+    </div>
+    <div class="stat" data-stat>
+      <svg class="stat__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 60 60)" data-ring/></svg>
+      <p class="stat__num"><span data-count="1920" data-sep="1">1 920</span></p>
+      <p class="stat__label">abonnés sur Instagram</p>
+    </div>
+    <div class="stat" data-stat>
+      <svg class="stat__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/><circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 60 60)" data-ring/></svg>
+      <p class="stat__num"><span data-count="6">6</span><small>/7</small></p>
+      <p class="stat__label">jours d'ouverture par semaine</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--lycoris);--to:var(--sumi)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,90 Q720,-40 1440,90 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ GALERIE ============ -->
+<section class="gallery" id="galerie" aria-labelledby="gallery-title">
+  <header class="gallery__head">
+    <p class="eyebrow"><i class="dot"></i> Galerie</p>
+    <h2 class="title title--xl" id="gallery-title" data-split="words">Pièces <em>choisies</em></h2>
+    <p class="gallery__lead">Quelques tatouages réalisés au salon. Clique pour agrandir, et retrouve le reste sur Instagram.</p>
+  </header>
+
+  <div class="gallery__grid">
+    <button class="g-item g-item--1" type="button" data-lightbox="0" aria-label="Agrandir : Fine line, chrysanthème et papillons">
+      <span class="g-item__frame" data-mask><img data-parallax="0.1" src="img/tatouage-chrysantheme.jpg" alt="Tatouage d'un chrysanthème et de papillons sur le bras" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Fine line</small><b>Chrysanthème &amp; papillons</b></span>
+    </button>
+    <button class="g-item g-item--2" type="button" data-lightbox="1" aria-label="Agrandir : Gravure, le gobelin">
+      <span class="g-item__frame" data-mask><img data-parallax="0.12" src="img/tatouage-gobelin.jpg" alt="Tatouage façon gravure d'un gobelin armé d'une hache" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Blackwork</small><b>Le gobelin à la hache</b></span>
+    </button>
+    <button class="g-item g-item--3" type="button" data-lightbox="2" aria-label="Agrandir : Blackwork, squelette de poisson">
+      <span class="g-item__frame" data-mask><img data-parallax="0.08" src="img/tatouage-poisson.jpg" alt="Tatouage d'un squelette de poisson sur la jambe" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Flash · Blackwork</small><b>Squelette de poisson</b></span>
+    </button>
+    <button class="g-item g-item--4" type="button" data-lightbox="3" aria-label="Agrandir : Réalisme noir et gris">
+      <span class="g-item__frame" data-mask><img data-parallax="0.1" src="img/tatouage-realisme.jpg" alt="Tatouage réaliste noir et gris d'une sculpture drapée sur la cuisse" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Réalisme</small><b>Sculpture drapée</b></span>
+    </button>
+    <button class="g-item g-item--5" type="button" data-lightbox="4" aria-label="Agrandir : Fine line, le vase fleuri">
+      <span class="g-item__frame" data-mask><img data-parallax="0.12" src="img/tatouage-vase.jpg" alt="Tatouage fine line d'un vase de fleurs avec un oiseau" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Fine line</small><b>Vase fleuri</b></span>
+    </button>
+    <button class="g-item g-item--6" type="button" data-lightbox="5" aria-label="Agrandir : Blackwork, la pieuvre">
+      <span class="g-item__frame" data-mask><img data-parallax="0.09" src="img/tatouage-pieuvre.jpg" alt="Tatouage d'une pieuvre enroulée autour d'un couteau" width="1100" height="1466" loading="lazy"></span>
+      <span class="g-item__cap"><small>Blackwork</small><b>Pieuvre &amp; couteau</b></span>
+    </button>
+    <a class="g-item g-item--cta" href="https://www.instagram.com/junkr_tattoo/" target="_blank" rel="noopener">
+      <span class="g-item__cta-in">
+        <svg class="rings" data-rings="9" data-seed="12" data-rmin="12" data-rmax="120" aria-hidden="true"></svg>
+        <b>Voir tout<br>sur Instagram</b>
+        <small>@junkr_tattoo · 55 publications</small>
+      </span>
+    </a>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--sumi);--to:var(--washi)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,40 C160,70 300,6 470,38 S760,80 930,36 S1250,4 1440,46 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ SÉANCE (timeline) ============ -->
+<section class="process" id="seance" aria-labelledby="process-title">
+  <header class="process__head">
+    <p class="eyebrow"><i class="dot"></i> Déroulé d'un tatouage</p>
+    <h2 class="title title--xl" id="process-title" data-split="words">De l'idée <em>à la peau</em></h2>
+  </header>
+  <div class="process__body" data-process>
+    <svg class="process__line" viewBox="0 0 40 1000" preserveAspectRatio="none" aria-hidden="true">
+      <path class="process__track" d="M20,0 C40,100 0,160 20,250 S40,380 20,500 S0,640 20,750 S40,880 20,1000" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="2.4"/>
+      <path class="process__draw" d="M20,0 C40,100 0,160 20,250 S40,380 20,500 S0,640 20,750 S40,880 20,1000" fill="none" stroke="#e2321f" stroke-width="3.4" stroke-linecap="round"/>
+    </svg>
+    <ol class="process__steps">
+      <li class="p-step" data-pstep>
+        <span class="p-step__node"><b>1</b></span>
+        <div class="p-step__card">
+          <h3>Tu m'écris</h3>
+          <p>Formulaire du site, SMS, appel ou message sur Instagram&nbsp;: dis-moi ce que tu as en tête, même en vrac.</p>
+        </div>
+      </li>
+      <li class="p-step p-step--r" data-pstep>
+        <span class="p-step__node"><b>2</b></span>
+        <div class="p-step__card">
+          <h3>On affine</h3>
+          <p>Emplacement, taille, style, références. On cale ensemble le projet et le créneau qui te convient.</p>
+        </div>
+      </li>
+      <li class="p-step" data-pstep>
+        <span class="p-step__node"><b>3</b></span>
+        <div class="p-step__card">
+          <h3>Le jour J</h3>
+          <p>Un café, le dessin posé sur ta peau, et la séance dans un salon propre où tu es à l'aise.</p>
+        </div>
+      </li>
+      <li class="p-step p-step--r" data-pstep>
+        <span class="p-step__node"><b>4</b></span>
+        <div class="p-step__card">
+          <h3>La cicatrisation</h3>
+          <p>Tu repars avec les conseils de soin. Et si tu veux, on se revoit pour la photo du tatouage cicatrisé.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--washi);--to:var(--graphite)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,50 L60,38 L110,56 L170,30 L240,54 L300,34 L370,58 L430,40 L500,56 L560,32 L640,54 L700,36 L780,58 L840,34 L910,52 L980,32 L1050,56 L1120,38 L1190,58 L1260,34 L1330,54 L1440,40 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ AVIS ============ -->
+<section class="reviews" id="avis" aria-labelledby="reviews-title">
+  <header class="reviews__head">
+    <p class="eyebrow"><i class="dot"></i> Avis clients</p>
+    <h2 class="title title--xl" id="reviews-title" data-split="words">Ils en <em>parlent</em></h2>
+    <div class="reviews__score" aria-label="Note de 5 sur 5 sur Google, d'après 5 avis">
+      <b>5,0</b>
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <small>5 avis Google</small>
+    </div>
+  </header>
+
+  <div class="reviews__viewport" data-reviews>
+    <ul class="reviews__track" data-rtrack>
+      <li class="review">
+        <svg class="review__quote" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 6 2 18 0l2 5C13 7 11 11 11 16h9v20H0zm28 0V20C28 8 34 2 46 0l2 5c-7 2-9 6-9 11h9v20H28z" fill="currentColor"/></svg>
+        <blockquote>
+          <p>Tatoueur très minutieux et perfectionniste&nbsp;! Il est de très bon conseil et très à l'écoute&nbsp;! Le salon est propre, l'hygiène irréprochable et le travail est juste magnifique. Le tatouage est encore plus beau que ce que j'imaginais, avec des détails et une finesse incroyables. On sent la passion et le savoir-faire.</p>
+        </blockquote>
+        <footer><b>Julie J.</b><span class="stars" aria-label="5 étoiles">★★★★★</span><small>Google · visité en avril</small></footer>
+        <p class="review__reply"><b>Réponse de JunkR</b>Merci beaucoup pour ta confiance&nbsp;! Je suis content que tout t'ait plu&nbsp;! J'attends avec impatience tes prochains projets&nbsp;!</p>
+      </li>
+      <li class="review">
+        <svg class="review__quote" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 6 2 18 0l2 5C13 7 11 11 11 16h9v20H0zm28 0V20C28 8 34 2 46 0l2 5c-7 2-9 6-9 11h9v20H28z" fill="currentColor"/></svg>
+        <blockquote>
+          <p>J'ai passé un super moment. L'accueil était chaleureux et propre. Tatoueur à l'écoute et très professionnel. Il a su comprendre mon idée et le résultat final a dépassé mes attentes. Les détails sont impeccables. Je recommande vivement.</p>
+        </blockquote>
+        <footer><b>Corinne M.</b><span class="stars" aria-label="5 étoiles">★★★★★</span><small>Google · visité en avril</small></footer>
+        <p class="review__reply"><b>Réponse de JunkR</b>Et vivement le prochain&nbsp;! Un grand merci de m'avoir fait confiance.</p>
+      </li>
+      <li class="review">
+        <svg class="review__quote" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 6 2 18 0l2 5C13 7 11 11 11 16h9v20H0zm28 0V20C28 8 34 2 46 0l2 5c-7 2-9 6-9 11h9v20H28z" fill="currentColor"/></svg>
+        <blockquote>
+          <p>Un tatoueur exceptionnel, capable de s'adapter et de produire de belles œuvres. Encore merci&nbsp;😍</p>
+        </blockquote>
+        <footer><b>Nicolas C.</b><span class="stars" aria-label="5 étoiles">★★★★★</span><small>Google · visité en mai</small></footer>
+        <p class="review__reply"><b>Réponse de JunkR</b>Un plaisir d'avoir pu te faire ce flash super sympa&nbsp;😁 Merci pour ta confiance&nbsp;!</p>
+      </li>
+      <li class="review review--cta">
+        <p class="review__cta-t">Et si le prochain avis, c'était <em>le tien&nbsp;?</em></p>
+        <a class="btn btn--primary" href="https://www.google.com/maps/place/JunkR+Tattoo/@48.6911282,6.1847157,17z/data=!4m6!3m5!1s0x4794995985374d1b:0x2f51207f293d581!8m2!3d48.6911282!4d6.1847157!16s%2Fg%2F11nh9dldg9" target="_blank" rel="noopener" data-magnetic><span>Lire / écrire un avis</span></a>
+      </li>
+    </ul>
+    <div class="reviews__ctrl">
+      <button type="button" class="ctrl" data-prev aria-label="Avis précédent">←</button>
+      <button type="button" class="ctrl" data-next aria-label="Avis suivant">→</button>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="--from:var(--graphite);--to:var(--washi)" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,90 L0,44 C130,8 250,70 400,40 S640,0 800,44 S1100,82 1260,36 S1400,20 1440,34 L1440,90 Z"/></svg>
+</div>
+
+<!-- ============ RÉSERVATION ============ -->
+<section class="booking" id="reservation" aria-labelledby="booking-title">
+  <div class="booking__grid">
+    <div class="booking__intro">
+      <p class="eyebrow"><i class="dot"></i> Réservation</p>
+      <h2 class="title title--xl" id="booking-title" data-split="words">Réserver, <em>sans prise de tête</em></h2>
+      <p class="booking__lead">Pas de plateforme, pas de compte à créer. Tu remplis 4 petites étapes, le site rédige ta demande, et tu l'envoies à JunkR par SMS. Il te répond pour confirmer le créneau.</p>
+      <ul class="channels">
+        <li><a href="tel:+33677418532" data-magnetic><b>Appeler</b><span>06 77 41 85 32</span></a></li>
+        <li><a href="sms:+33677418532" data-magnetic><b>SMS</b><span>06 77 41 85 32</span></a></li>
+        <li><a href="https://ig.me/m/junkr_tattoo" target="_blank" rel="noopener" data-magnetic><b>Instagram</b><span>@junkr_tattoo</span></a></li>
+      </ul>
+      <p class="booking__note">Ouvert du lundi au samedi, de 10&nbsp;h à 19&nbsp;h. Une demande n'est confirmée qu'une fois que JunkR t'a répondu.</p>
+    </div>
+
+    <div class="wizard" id="wizard" data-wizard>
+      <div class="wizard__top">
+        <ol class="wizard__steps" aria-label="Étapes du formulaire">
+          <li class="is-active" data-dot><i>1</i><span>Projet</span></li>
+          <li data-dot><i>2</i><span>Zone</span></li>
+          <li data-dot><i>3</i><span>Date</span></li>
+          <li data-dot><i>4</i><span>Toi</span></li>
+        </ol>
+        <div class="wizard__bar" aria-hidden="true"><i id="wizBar"></i></div>
+      </div>
+
+      <form class="wizard__form" id="bookingForm" novalidate>
+        <div class="wizard__live visually-hidden" id="wizLive" aria-live="polite"></div>
+
+        <!-- Étape 1 -->
+        <fieldset class="wstep is-active" data-wstep="0">
+          <legend>Ton projet</legend>
+          <p class="wstep__q">Qu'est-ce que tu as en tête&nbsp;?</p>
+          <div class="chips" role="radiogroup" aria-label="Type de demande">
+            <label class="chip"><input type="radio" name="type" value="Un nouveau projet sur mesure" checked><span>Un projet sur mesure</span></label>
+            <label class="chip"><input type="radio" name="type" value="Un flash"><span>Un flash</span></label>
+            <label class="chip"><input type="radio" name="type" value="Une retouche ou un raccord"><span>Retouche / raccord</span></label>
+            <label class="chip"><input type="radio" name="type" value="Je ne sais pas encore, je veux en parler"><span>Je veux en parler</span></label>
+          </div>
+          <p class="wstep__q">Quel style t'attire&nbsp;? <small>(plusieurs choix possibles)</small></p>
+          <div class="chips" id="styleChips">
+            <label class="chip"><input type="checkbox" name="style" value="Blackwork"><span>Blackwork</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Fine line"><span>Fine line</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Floral"><span>Floral</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Réalisme noir et gris"><span>Réalisme</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Flash"><span>Flash</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Touche de rouge"><span>Touche de rouge</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Patchwork / raccord"><span>Patchwork</span></label>
+            <label class="chip"><input type="checkbox" name="style" value="Autre / je ne sais pas encore"><span>Je ne sais pas</span></label>
+          </div>
+        </fieldset>
+
+        <!-- Étape 2 -->
+        <fieldset class="wstep" data-wstep="1">
+          <legend>Zone &amp; taille</legend>
+          <p class="wstep__q">Sur quelle zone&nbsp;?</p>
+          <div class="chips" role="radiogroup" aria-label="Zone du corps">
+            <label class="chip"><input type="radio" name="zone" value="Bras / épaule"><span>Bras / épaule</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Avant-bras"><span>Avant-bras</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Main / doigts"><span>Main / doigts</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Cuisse / jambe"><span>Cuisse / jambe</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Mollet / cheville"><span>Mollet / cheville</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Dos"><span>Dos</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Torse / côtes"><span>Torse / côtes</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Cou / tête"><span>Cou / tête</span></label>
+            <label class="chip"><input type="radio" name="zone" value="Je ne sais pas encore"><span>Pas encore décidé</span></label>
+          </div>
+          <p class="wstep__q">Quelle taille environ&nbsp;?</p>
+          <div class="chips" role="radiogroup" aria-label="Taille du tatouage">
+            <label class="chip"><input type="radio" name="size" value="Petit (moins qu'une paume)"><span>Petit <small>&lt; une paume</small></span></label>
+            <label class="chip"><input type="radio" name="size" value="Moyen (de la main à l'avant-bras)"><span>Moyen <small>main → avant-bras</small></span></label>
+            <label class="chip"><input type="radio" name="size" value="Grand (demi-manchette ou plus)"><span>Grand <small>demi-manchette+</small></span></label>
+            <label class="chip"><input type="radio" name="size" value="Gros projet en plusieurs séances"><span>Gros projet <small>plusieurs séances</small></span></label>
+          </div>
+          <label class="field">
+            <span>Raconte ton idée <small>(facultatif)</small></span>
+            <textarea name="idea" rows="3" maxlength="400" placeholder="Un motif, une ambiance, une référence, une histoire…"></textarea>
+          </label>
+        </fieldset>
+
+        <!-- Étape 3 -->
+        <fieldset class="wstep" data-wstep="2">
+          <legend>Quand</legend>
+          <p class="wstep__q">Choisis le jour qui t'arrangerait <small>(du lundi au samedi)</small></p>
+          <div class="cal" id="cal">
+            <div class="cal__head">
+              <button type="button" class="ctrl ctrl--sm" id="calPrev" aria-label="Mois précédent">←</button>
+              <b id="calTitle" aria-live="polite"></b>
+              <button type="button" class="ctrl ctrl--sm" id="calNext" aria-label="Mois suivant">→</button>
+            </div>
+            <div class="cal__dow" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+            <div class="cal__days" id="calDays" role="group" aria-label="Jours du mois"></div>
+          </div>
+          <p class="cal__chosen" id="calChosen">Aucune date choisie pour l'instant.</p>
+          <p class="wstep__q">Plutôt à quel moment&nbsp;?</p>
+          <div class="chips" role="radiogroup" aria-label="Moment de la journée" id="periodChips"></div>
+          <label class="chip chip--solo"><input type="checkbox" name="flex" value="1"><span>Je suis flexible, propose-moi d'autres dates</span></label>
+        </fieldset>
+
+        <!-- Étape 4 -->
+        <fieldset class="wstep" data-wstep="3">
+          <legend>Tes coordonnées</legend>
+          <label class="field">
+            <span>Prénom</span>
+            <input type="text" name="prenom" autocomplete="given-name" required maxlength="40" placeholder="Ton prénom">
+            <em class="field__err" data-err="prenom" role="alert"></em>
+          </label>
+          <label class="field">
+            <span>Téléphone</span>
+            <input type="tel" name="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="06 12 34 56 78">
+            <em class="field__err" data-err="tel" role="alert"></em>
+          </label>
+          <p class="wstep__q">Comment préfères-tu qu'on te réponde&nbsp;?</p>
+          <div class="chips" role="radiogroup" aria-label="Canal de réponse">
+            <label class="chip"><input type="radio" name="canal" value="SMS" checked><span>Par SMS</span></label>
+            <label class="chip"><input type="radio" name="canal" value="un appel"><span>Par appel</span></label>
+            <label class="chip"><input type="radio" name="canal" value="Instagram"><span>Sur Instagram</span></label>
+          </div>
+        </fieldset>
+
+        <!-- Résultat -->
+        <section class="wstep wresult" data-wstep="4" aria-live="polite">
+          <p class="wresult__kicker">Ta demande est prête</p>
+          <h3>Plus qu'un geste&nbsp;!</h3>
+          <pre class="ticket" id="ticket" tabindex="0" aria-label="Aperçu du message"></pre>
+          <div class="wresult__actions">
+            <a class="btn btn--primary" id="btnSms" href="#" data-magnetic><span>Envoyer par SMS</span></a>
+            <a class="btn btn--ghost" id="btnInsta" href="https://ig.me/m/junkr_tattoo" target="_blank" rel="noopener"><span>Envoyer sur Instagram</span></a>
+            <a class="btn btn--ghost" href="tel:+33677418532"><span>Appeler</span></a>
+          </div>
+          <div class="wresult__tools">
+            <button type="button" class="link" id="btnCopy">Copier le message</button>
+            <button type="button" class="link" id="btnIcs">Ajouter au calendrier (.ics)</button>
+            <button type="button" class="link" id="btnEdit">Modifier ma demande</button>
+          </div>
+          <p class="wresult__note" id="copyNote" role="status"></p>
+          <p class="wresult__note">Le bouton SMS ouvre ton application de messages avec le texte déjà rédigé. Sur ordinateur, copie le message et envoie-le au 06 77 41 85 32. Rien n'est enregistré par ce site.</p>
+        </section>
+
+        <p class="wizard__err" id="wizErr" role="alert"></p>
+        <div class="wizard__nav" id="wizNav">
+          <button type="button" class="btn btn--ghost btn--sm" id="wizBack" hidden><span>← Retour</span></button>
+          <button type="button" class="btn btn--primary" id="wizNext" data-magnetic><span>Continuer</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <noscript><p class="booking__note">Le formulaire nécessite JavaScript. Tu peux réserver en appelant ou en envoyant un SMS au 06 77 41 85 32.</p></noscript>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="faq__grid">
+    <header>
+      <p class="eyebrow"><i class="dot"></i> Questions fréquentes</p>
+      <h2 class="title" id="faq-title" data-split="words">Avant de <em>franchir la porte</em></h2>
+    </header>
+    <div class="faq__list">
+      <details data-reveal><summary>Comment réserver&nbsp;?<i></i></summary><div><p>Avec le formulaire de ce site (il prépare un SMS déjà rédigé), par téléphone au 06 77 41 85 32, ou en message privé sur Instagram. JunkR te répond pour confirmer le créneau.</p></div></details>
+      <details data-reveal><summary>Combien coûte un tatouage&nbsp;?<i></i></summary><div><p>Chaque pièce est unique&nbsp;: le tarif dépend de la taille, du niveau de détail et de l'emplacement. Il est annoncé sur devis, après un échange sur ton projet.</p></div></details>
+      <details data-reveal><summary>J'ai une idée, mais elle est encore floue.<i></i></summary><div><p>C'est très bien&nbsp;: l'écoute fait partie du travail. Décris ce que tu as en tête, envoie des références si tu en as, et le dessin se construit avec toi.</p></div></details>
+      <details data-reveal><summary>Faites-vous des flashs&nbsp;?<i></i></summary><div><p>Oui. Des dessins prêts à être tatoués sont publiés sur Instagram, dans la story à la une «&nbsp;FLASH&nbsp;». Choisis-en un et mentionne-le dans ta demande.</p></div></details>
+      <details data-reveal><summary>Où se trouve le salon, et quand est-il ouvert&nbsp;?<i></i></summary><div><p>15 rue Saint-Julien, 54000 Nancy. Ouvert du lundi au samedi, de 10&nbsp;h à 19&nbsp;h, fermé le dimanche.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPEL À L'ACTION ============ -->
+<section class="cta" id="contact" aria-labelledby="cta-title">
+  <svg class="rings cta__rings" data-rings="14" data-seed="21" data-rmin="30" data-rmax="240" aria-hidden="true"></svg>
+  <p class="eyebrow eyebrow--dark"><i class="dot"></i> Prêt·e&nbsp;?</p>
+  <h2 class="cta__title" id="cta-title" data-words>Ton prochain tatouage commence par un message.</h2>
+  <a class="cta__phone" href="tel:+33677418532" data-magnetic aria-label="Appeler le 06 77 41 85 32"><span>06 77 41 85 32</span></a>
+  <div class="cta__btns">
+    <a class="btn btn--dark" href="#reservation" data-magnetic><span>Demander un créneau</span></a>
+    <a class="btn btn--outline-dark" href="https://ig.me/m/junkr_tattoo" target="_blank" rel="noopener" data-magnetic><span>Écrire sur Instagram</span></a>
+  </div>
+</section>
+
+<!-- ============ NOUS TROUVER ============ -->
+<section class="venir" id="venir" aria-labelledby="venir-title">
+  <div class="venir__grid">
+    <div class="venir__info">
+      <p class="eyebrow"><i class="dot"></i> Nous trouver</p>
+      <h2 class="title" id="venir-title" data-split="words">Rue <em>Saint-Julien</em></h2>
+      <address class="venir__addr">
+        <a href="https://www.google.com/maps/place/JunkR+Tattoo/@48.6911282,6.1847157,17z/data=!4m6!3m5!1s0x4794995985374d1b:0x2f51207f293d581!8m2!3d48.6911282!4d6.1847157!16s%2Fg%2F11nh9dldg9" target="_blank" rel="noopener">15 rue Saint-Julien<br>54000 Nancy</a>
+      </address>
+      <p class="status status--lg" id="openStatus2"><i class="status__dot"></i><span>Horaires du salon</span></p>
+      <table class="hours" aria-label="Horaires d'ouverture">
+        <tbody id="hoursBody">
+          <tr data-d="1"><th>Lundi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="2"><th>Mardi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="3"><th>Mercredi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="4"><th>Jeudi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="5"><th>Vendredi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="6"><th>Samedi</th><td>10 h – 19 h</td></tr>
+          <tr data-d="0"><th>Dimanche</th><td>Fermé</td></tr>
+        </tbody>
+      </table>
+      <ul class="venir__links">
+        <li><a href="tel:+33677418532" data-magnetic><span>06 77 41 85 32</span></a></li>
+        <li><a href="https://www.instagram.com/junkr_tattoo/" target="_blank" rel="noopener" data-magnetic><span>@junkr_tattoo</span></a></li>
+        <li><a href="https://www.google.com/maps/dir/?api=1&destination=15+Rue+Saint-Julien%2C+54000+Nancy" target="_blank" rel="noopener" data-magnetic><span>Itinéraire</span></a></li>
+      </ul>
+      <div class="venir__shots" aria-label="Photos du salon">
+        <figure data-mask><img src="img/salon-lounge.jpg" alt="Coin salon du shop de JunkR : fauteuils noirs, tapis graphique et affiches au mur" width="1100" height="1466" loading="lazy"></figure>
+        <figure data-mask><img src="img/salon-etagere.jpg" alt="Étagère du shop avec livres, figurine de collection et chapeau noir accroché au mur" width="1100" height="1466" loading="lazy"></figure>
+      </div>
+    </div>
+
+    <div class="venir__map" data-mask>
+      <iframe title="Carte Google Maps : JunkR Tattoo, 15 rue Saint-Julien à Nancy" src="https://maps.google.com/maps?q=15%20Rue%20Saint-Julien%2C%2054000%20Nancy&amp;z=17&amp;ie=UTF8&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <a class="venir__maplink" href="https://www.google.com/maps/place/JunkR+Tattoo/@48.6911282,6.1847157,17z/data=!4m6!3m5!1s0x4794995985374d1b:0x2f51207f293d581!8m2!3d48.6911282!4d6.1847157!16s%2Fg%2F11nh9dldg9" target="_blank" rel="noopener" aria-label="Ouvrir JunkR Tattoo dans Google Maps (nouvel onglet)">
+        <span>Ouvrir dans Google Maps <i>↗</i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__top">
+    <nav class="footer__nav" aria-label="Pied de page">
+      <a href="#histoire">Le shop</a>
+      <a href="#styles">Styles</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#reservation">Réserver</a>
+      <a href="#venir">Venir</a>
+    </nav>
+    <div class="footer__contact">
+      <a href="tel:+33677418532">06 77 41 85 32</a>
+      <a href="https://www.instagram.com/junkr_tattoo/" target="_blank" rel="noopener">Instagram · @junkr_tattoo</a>
+      <span>15 rue Saint-Julien, 54000 Nancy</span>
+    </div>
+  </div>
+  <div class="footer__giant" aria-hidden="true" data-footer-giant>
+    <span>J</span><span>U</span><span>N</span><span>K</span><span>R</span>
+  </div>
+  <p class="footer__legal">© 2026 JunkR Tattoo · Nancy · Photos : salon et réalisations JunkR Tattoo ; ambiance : Pexels (licence libre).</p>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse de photos" aria-hidden="true">
+  <button type="button" class="lightbox__close" data-lb-close aria-label="Fermer">✕</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" data-lb-prev aria-label="Photo précédente">←</button>
+  <figure class="lightbox__fig"><img id="lbImg" alt="" width="1100" height="1466"><figcaption id="lbCap"></figcaption></figure>
+  <button type="button" class="lightbox__nav lightbox__nav--next" data-lb-next aria-label="Photo suivante">→</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+/* Sécurité : si le chargement des animations échoue, on ne laisse jamais l'écran d'intro bloquer le site. */
+window.addEventListener('load', function () {
+  setTimeout(function () {
+    var l = document.getElementById('loader');
+    if (l && !window.__junkrReady) { l.style.display = 'none'; }
+  }, 9000);
+});
+</script>
+</body>
+</html>
